@@ -15,6 +15,7 @@ public class DemoMRS extends BaseClass{
 	@Test(description="Add new service type")
 	public void TC_001_Add_Service_Type() throws InterruptedException
 	{
+		//Test Git
 		launchBrowser("https://openmrs.org/demo/");
 
 		driver.findElement(By.xpath("//span[contains(text(),'Enter the OpenMRS 2 Demo')]")).click();
